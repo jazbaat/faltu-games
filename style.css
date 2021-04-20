@@ -1,0 +1,27 @@
+img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#refresh {
+    outline: none;
+}
+
+@media all and (max-width:500px) {
+    img {
+        width: 60%;
+        margin-left: 20%;
+    }
+    #refresh {
+        width: 100%;
+    }
+    #demo {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h5 {
+        margin-top: 15%;
+    }
+}
